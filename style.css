@@ -1,0 +1,138 @@
+* {
+  font-family: Cantarell;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15.4px;
+}
+
+p {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+blockquote {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+pre {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.focus {
+  background-color: #4f4f4f;
+}
+
+section {
+  width: 75%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.bg-img {
+
+  background-image: url("earth.jpg");
+  min-height: 100vh; /* 100% high */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* position: relative; */
+}
+
+/* Position the navbar container inside the image */
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.nav {
+  overflow: hidden;
+  margin: 0px;
+}
+
+.nav a {
+  text-align: center;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: grey;
+
+  /* background-color: white;
+  border: 0px solid;
+  border-radius: 20px; */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  padding-top: 2em;
+}
+
+.logo {
+  width: 75px;
+}
+
+.logo-text {
+  padding-top: .5em;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
